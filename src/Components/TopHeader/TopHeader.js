@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Product from './Product';
+import ProductCard from '../Shared/ProductCard/ProductCard';
 
 const TopHeader = () => {
     const [products, setProducts] = useState([]);
@@ -28,9 +28,9 @@ const TopHeader = () => {
                         {
                             products.map(product => {
                                 if (product._id < 7) {
-                                    return <Product
+                                    return <ProductCard
                                         key={product._id}
-                                        product={product}></Product>
+                                        product={product}></ProductCard>
                                 }
                             })
                         }
