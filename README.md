@@ -3,4 +3,4 @@
 
 
 #### Technology: ####
-**Fron-End:**  React, Tailwind-CSS, HTML
+**Front-End:**  React, Tailwind-CSS, HTML

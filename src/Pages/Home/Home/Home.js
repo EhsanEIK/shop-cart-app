@@ -3,6 +3,7 @@ import Navbar from '../../../Components/Shared/Navbar/Navbar';
 import TopHeader from '../../../Components/TopHeader/TopHeader';
 import AlexaSection from '../../../Components/AlexaSection/AlexaSection';
 import TodaysDeal from '../../../Components/TodaysDeal/TodaysDeal';
+import YourSearchItems from '../../../Components/YourSearchItems/YourSearchItems';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
                 <TopHeader></TopHeader>
                 <AlexaSection></AlexaSection>
                 <TodaysDeal></TodaysDeal>
+                <YourSearchItems></YourSearchItems>
             </div>
         </div>
     );
