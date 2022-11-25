@@ -7,7 +7,7 @@ import TodaysDeal from '../../../Components/TodaysDeal/TodaysDeal';
 const Home = () => {
     return (
         <div>
-            <div className='container mx-auto'>
+            <div className='container mx-auto mb-10'>
                 <Navbar></Navbar>
                 <TopHeader></TopHeader>
                 <AlexaSection></AlexaSection>
