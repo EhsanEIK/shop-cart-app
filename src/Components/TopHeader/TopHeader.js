@@ -13,7 +13,7 @@ const TopHeader = () => {
 
     return (
         <section className='mt-20'>
-            <div className='lg:grid lg:grid-cols-8 h-[500px]'>
+            <div className='lg:grid lg:grid-cols-8'>
                 <div className='col-span-3 flex justify-center items-center'>
                     <p className='text-7xl'>
                         We picked<br />
